@@ -1,0 +1,32 @@
+.product{
+    width: 30%;
+    height: 40vh;
+    margin: 20px 10px;
+    border: 2px solid aliceblue ;
+    border-radius:10px 10px 0 0;
+    overflow: hidden;
+}
+.p-browser{
+    height: 20px;
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+}
+.p-circle{
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: gray;
+    margin: 3px;
+}
+.p-img{
+    width: 100%;
+}
+
+@media screen and (max-width: 480px){
+    .product{
+        width: 40%;
+        height: 20vh;
+    }
+
+}
